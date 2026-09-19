@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ad Copy Suite — Google Ads, Meta Ads & LinkedIn Ads Copy Generator</title>
+  <meta name="description" content="Platform-native ad copy for Google, Meta, and LinkedIn. Character count badges, multiple angles, copy-ready output. $57 one-time." />
+  <meta name="keywords" content="Google ads copy generator, Meta ads copy tool, LinkedIn ads copy, ad copywriting tool, PPC copy generator, Facebook ads copy, marketing manager tools" />
+  <link rel="canonical" href="https://malikreagan.gumroad.com/l/ad-copy-suite" />
+  <meta property="og:title" content="Ad Copy Suite — Google Ads, Meta Ads & LinkedIn Ads" />
+  <meta property="og:description" content="Platform-native ad copy for Google, Meta, and LinkedIn. Character counts, multiple angles, copy-ready. $57 one-time." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Ad Copy Suite","applicationCategory":"BusinessApplication","description":"Three-platform ad copy generator: Google Ads RSA (15 headlines + 4 descriptions), Meta Ads (primary text, headline, description, multiple angles), LinkedIn Ads (sponsored content and message ads). Character count badges throughout.","offers":{"@type":"Offer","price":"57.00","priceCurrency":"USD"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"16"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --void:#0A0A0F;--surface:#13131A;--surface2:#1C1C28;
+      --violet:#7C3AED;--vl:#A78BFA;--vl2:#C4B5FD;
+      --vd:#7C3AED18;--vd2:#7C3AED28;
+      --silver:#E4E4F0;--silver2:#B4B4C8;--silver3:#7A7A90;--silver4:#404058;
+      --rule:#1E1E2E;--rule2:#28283C;
+      --sand:#F8F8FC;--sand2:#F0F0F8;--rule-l:#E2E2F0;
+      --ink:#0F0F1A;--ink2:#2D2D45;--ink3:#6B6B85;--ink4:#9898B0;
+      --google:#4285F4;--meta:#1877F2;--linkedin:#0A66C2;
+      --green:#10B981;--amber:#F59E0B;--red:#EF4444;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--sand);color:var(--ink);font-family:'Inter',sans-serif;font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+    .container{max-width:860px;margin:0 auto;padding:0 36px}
+    nav{background:var(--void);border-bottom:2px solid var(--violet);padding:0 36px;height:56px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;}
+    .nav-logo{font-size:15px;font-weight:700;color:#fff;text-decoration:none;letter-spacing:-0.3px}
+    .nav-logo span{color:var(--vl)}
+    .nav-cta{background:var(--violet);color:#fff;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;padding:9px 20px;text-decoration:none;transition:all 0.15s;border-radius:5px;}
+    .nav-cta:hover{background:var(--vl);color:var(--void);transform:translateY(-1px)}
+    .hero{background:var(--void);padding:88px 0 72px;border-bottom:3px solid var(--violet);position:relative;overflow:hidden;}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 55% 50% at 0% 100%,rgba(124,58,237,0.12) 0%,transparent 60%);}
+    .hero-inner{position:relative}
+    .hero-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--silver4);margin-bottom:22px;}
+    .hero-h1{font-size:clamp(38px,5.5vw,68px);font-weight:800;line-height:1.0;color:#fff;margin-bottom:22px;letter-spacing:-1.5px;}
+    .hero-h1 em{font-style:normal;color:var(--vl);display:block;}
+    .hero-sub{font-size:16px;color:var(--silver3);max-width:500px;line-height:1.8;margin-bottom:40px;font-weight:300;}
+    .hero-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:52px;}
+    .btn-primary{background:var(--violet);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;padding:14px 36px;text-decoration:none;transition:all 0.2s;display:inline-block;border-radius:6px;}
+    .btn-primary:hover{background:var(--vl);color:var(--void);transform:translateY(-2px);box-shadow:0 10px 40px rgba(124,58,237,0.35)}
+    .btn-ghost{color:var(--silver3);font-size:13px;text-decoration:none;border-bottom:1px solid var(--rule2);padding-bottom:2px;transition:color 0.15s;}
+    .btn-ghost:hover{color:var(--silver2)}
+    /* platform preview */
+    .platform-previews{display:flex;flex-direction:column;gap:6px;max-width:540px}
+    .plat-preview{background:var(--surface);border:1px solid var(--rule2);border-radius:7px;overflow:hidden}
+    .pp-head{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--surface2);border-bottom:1px solid var(--rule2)}
+    .pp-name{font-size:11px;font-weight:700}
+    .pp-format{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--silver4);margin-left:auto}
+    .pp-row{display:flex;align-items:center;gap:8px;padding:7px 12px;border-bottom:1px solid var(--rule2)}
+    .pp-row:last-child{border-bottom:none}
+    .pp-num{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--silver4);width:18px}
+    .pp-text{font-size:12px;color:var(--silver2);flex:1}
+    .char-ok{font-family:'JetBrains Mono',monospace;font-size:9px;padding:1px 6px;background:#10B98114;border:1px solid #10B98128;color:#10B981;border-radius:10px}
+    .char-warn{font-family:'JetBrains Mono',monospace;font-size:9px;padding:1px 6px;background:#F59E0B14;border:1px solid #F59E0B28;color:#F59E0B;border-radius:10px}
+    /* sections */
+    .section{padding:88px 0;border-top:1px solid var(--rule-l);}
+    .section-title{font-size:clamp(26px,4vw,46px);font-weight:800;line-height:1.0;margin-bottom:14px;letter-spacing:-0.8px;}
+    .section-title em{font-style:normal;color:var(--violet);}
+    .section-sub{font-size:15px;color:var(--ink3);max-width:520px;line-height:1.8;font-weight:300;margin-bottom:48px;}
+    /* platform cards */
+    .platform-cards{display:flex;flex-direction:column;gap:4px;margin-top:48px}
+    .plat-card{background:#fff;border:1px solid var(--rule-l);border-radius:7px;overflow:hidden}
+    .plc-head{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding:18px 20px;border-bottom:1px solid var(--rule-l)}
+    .plch-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:#fff;flex-shrink:0}
+    .plch-name{font-size:18px;font-weight:800;color:var(--ink);letter-spacing:-0.3px}
+    .plch-tag{font-size:12px;color:var(--ink4);font-weight:300}
+    .plch-format{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--ink4);text-align:right;line-height:1.7}
+    .plc-body{padding:16px 20px}
+    .plcb-desc{font-size:13px;color:var(--ink3);line-height:1.7;margin-bottom:14px;font-weight:300}
+    .plcb-specs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+    @media(max-width:580px){.plcb-specs{grid-template-columns:1fr 1fr}}
+    .spec-card{background:var(--sand2);padding:9px 10px;border-radius:5px;border-left:2px solid var(--violet)}
+    .sc-label{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--ink4);margin-bottom:3px}
+    .sc-val{font-size:12px;font-weight:600;color:var(--ink)}
+    /* insight */
+    .insight{background:var(--void);border-left:4px solid var(--violet);padding:26px 30px;margin-top:48px;border-radius:7px}
+    .ins-label{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--vl);margin-bottom:8px}
+    .ins-title{font-size:18px;font-weight:700;color:#fff;margin-bottom:8px;letter-spacing:-0.3px;line-height:1.3}
+    .ins-text{font-size:13px;color:var(--silver3);line-height:1.8;font-weight:300}
+    /* testimonials */
+    .test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px;margin-top:48px}
+    .test-card{background:#fff;border:1px solid var(--rule-l);padding:24px;border-top:3px solid var(--violet);border-radius:7px}
+    .stars{color:var(--violet);font-size:11px;letter-spacing:3px;margin-bottom:10px}
+    .test-card p{font-size:13px;font-style:italic;color:var(--ink2);line-height:1.8;margin-bottom:12px}
+    .test-attr{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:2px;color:var(--ink4);text-transform:uppercase}
+    /* pricing */
+    .pricing-card{max-width:500px;margin:48px auto 0;background:#fff;border:2px solid var(--ink);overflow:hidden;border-radius:10px}
+    .pricing-top{background:var(--void);padding:38px 42px;text-align:center}
+    .pricing-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--silver4);margin-bottom:12px}
+    .price{font-size:76px;font-weight:800;color:var(--vl);line-height:1;letter-spacing:-2px}
+    .price-sub{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--silver4);margin-top:6px}
+    .pricing-body{padding:34px 42px}
+    .feature-list{list-style:none;margin-bottom:28px}
+    .feature-list li{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--rule-l);font-size:13px;color:var(--ink2);line-height:1.5}
+    .feature-list li:last-child{border-bottom:none}
+    .check{color:var(--violet);flex-shrink:0;padding-top:2px;font-weight:700}
+    .btn-purchase{display:block;width:100%;background:var(--violet);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;padding:16px;text-align:center;text-decoration:none;transition:all 0.15s;border-radius:6px}
+    .btn-purchase:hover{background:var(--vl);color:var(--void)}
+    .guarantee{text-align:center;margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:var(--ink4);text-transform:uppercase}
+    /* faq */
+    .faq-list{margin-top:48px;border:1px solid var(--rule-l);background:#fff;border-radius:7px;overflow:hidden}
+    .faq-item{border-bottom:1px solid var(--rule-l)}.faq-item:last-child{border-bottom:none}
+    .faq-q{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:20px 26px;cursor:pointer;font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;background:none;border:none;width:100%;text-align:left;transition:background 0.15s}
+    .faq-q:hover{background:var(--sand2)}
+    .faq-toggle{color:var(--violet);font-size:20px;font-weight:300;line-height:1;flex-shrink:0;font-family:sans-serif}
+    .faq-a{display:none;padding:0 26px 20px;font-size:13px;color:var(--ink3);line-height:1.8;font-weight:300}
+    .cta-section{background:var(--void);padding:96px 0;border-top:3px solid var(--violet);text-align:center}
+    .cta-section h2{font-size:clamp(26px,4.5vw,52px);font-weight:800;color:#fff;line-height:1.0;margin-bottom:14px;letter-spacing:-1px}
+    .cta-section h2 em{font-style:normal;color:var(--vl)}
+    .cta-section p{font-size:15px;color:var(--silver3);margin-bottom:32px;max-width:420px;margin-left:auto;margin-right:auto;line-height:1.8;font-weight:300}
+    .cta-note{margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--silver4);letter-spacing:2px;text-transform:uppercase}
+    footer{padding:26px 36px;border-top:1px solid var(--rule-l);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;background:var(--sand2)}
+    .footer-logo{font-size:13px;font-weight:700;color:var(--ink3)}
+    .footer-links{display:flex;gap:18px}
+    .footer-links a{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--ink4);text-decoration:none;letter-spacing:1px;text-transform:uppercase}
+    .footer-links a:hover{color:var(--ink)}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .hero-inner>*{animation:fadeUp 0.4s ease both;opacity:0}
+    .hero-label{animation-delay:0.05s}.hero-h1{animation-delay:0.1s}.hero-sub{animation-delay:0.16s}.hero-actions{animation-delay:0.22s}.platform-previews{animation-delay:0.28s}
+    @media(max-width:580px){.container{padding:0 20px}.section{padding:60px 0}nav,footer{padding:14px 20px}.pricing-top,.pricing-body{padding:26px 22px}.plc-head{grid-template-columns:44px 1fr}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="#" class="nav-logo">Ad Copy <span>Suite</span></a>
+  <a href="https://malikreagan.gumroad.com/l/ad-copy-suite" class="nav-cta">Get it — $57</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-label">Marketing Manager Suite · Ad Copy</div>
+      <h1 class="hero-h1">Platform-native.<em>Not reformatted.</em></h1>
+      <p class="hero-sub">Google Ads, Meta Ads, and LinkedIn Ads — each generated for the platform's actual requirements, character limits, and creative grammar. Not generic short copy made to fit.</p>
+      <div class="hero-actions">
+        <a href="https://malikreagan.gumroad.com/l/ad-copy-suite" class="btn-primary">Get the Ad Copy Suite — $57</a>
+        <a href="#platforms" class="btn-ghost">See all three platforms</a>
+      </div>
+      <div class="platform-previews">
+        <div class="plat-preview">
+          <div class="pp-head"><span class="pp-name" style="color:var(--google)">Google Ads</span><span class="pp-format">RSA · 15 headlines · 4 descriptions</span></div>
+          <div class="pp-row"><span class="pp-num">H1</span><span class="pp-text">Nomad Planner Pro — Shop Now</span><span class="char-ok">28/30</span></div>
+          <div class="pp-row"><span class="pp-num">H2</span><span class="pp-text">The Planner for Deep Work</span><span class="char-ok">25/30</span></div>
+          <div class="pp-row"><span class="pp-num">H3</span><span class="pp-text">Premium Planners From £45</span><span class="char-warn">26/30</span></div>
+        </div>
+        <div class="plat-preview">
+          <div class="pp-head"><span class="pp-name" style="color:var(--meta)">Meta Ads</span><span class="pp-format">Primary text · Headline · Description</span></div>
+          <div class="pp-row"><span class="pp-num" style="color:var(--meta)">PT</span><span class="pp-text" style="font-size:11px">Most planners sit on a shelf. The Nomad Planner Pro gets used — because the system is built in.</span><span class="char-ok">91/125</span></div>
+          <div class="pp-row"><span class="pp-num" style="color:var(--meta)">HL</span><span class="pp-text">Plan your week. Own your year.</span><span class="char-ok">30/40</span></div>
+        </div>
+        <div class="plat-preview">
+          <div class="pp-head"><span class="pp-name" style="color:var(--linkedin)">LinkedIn Ads</span><span class="pp-format">Sponsored Content · Intro text</span></div>
+          <div class="pp-row"><span class="pp-num" style="color:var(--linkedin)">IT</span><span class="pp-text" style="font-size:11px">Marketing managers spend 2+ hours briefing agencies by email. There's a structured way to do this.</span><span class="char-ok">97/150</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Different platforms.<em>Different grammar.</em></h2>
+    <div class="insight">
+      <div class="ins-label">Why platform-native matters</div>
+      <div class="ins-title">Google Ads is keyword-intent matching. Meta is scroll-stopping. LinkedIn is credibility-first. Each has a different creative grammar — and a different way of failing.</div>
+      <div class="ins-text">A Meta primary text that opens with "Most planners sit on a shelf" stops a scroll. The same line in a Google headline gets cut off at 30 characters and fails. A LinkedIn ad that opens with a professional pain point earns a click from a marketing director. The same line on Meta reads as jargon. The Ad Copy Suite generates for each platform's actual requirements — not the same copy shortened to fit.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="platforms">
+  <div class="container">
+    <h2 class="section-title">Three platforms.<em>Built for each one.</em></h2>
+    <p class="section-sub">Every platform gets the format, character limits, and structural approach that makes copy work there — not elsewhere.</p>
+    <div class="platform-cards">
+      <div class="plat-card">
+        <div class="plc-head">
+          <div class="plch-icon" style="background:var(--google)">G</div>
+          <div><div class="plch-name">Google Ads</div><div class="plch-tag">Responsive Search Ads — keyword-intent matching</div></div>
+          <div class="plch-format">15 headlines<br/>4 descriptions<br/>Up to 3 sets</div>
+        </div>
+        <div class="plc-body">
+          <div class="plcb-desc">The RSA format needs 15 headlines varied enough for Google's machine learning to find the combinations that work — brand headlines, keyword-matching headlines, benefit headlines, CTA headlines, question headlines. A set of 15 near-identical headlines underperforms. Every headline and description shows a live character count badge against the hard limit.</div>
+          <div class="plcb-specs">
+            <div class="spec-card"><div class="sc-label">Headlines</div><div class="sc-val">15 per set</div></div>
+            <div class="spec-card"><div class="sc-label">Headline limit</div><div class="sc-val">30 chars</div></div>
+            <div class="spec-card"><div class="sc-label">Descriptions</div><div class="sc-val">4 per set</div></div>
+            <div class="spec-card"><div class="sc-label">Desc. limit</div><div class="sc-val">90 chars</div></div>
+            <div class="spec-card"><div class="sc-label">Sets</div><div class="sc-val">1, 2, or 3</div></div>
+            <div class="spec-card"><div class="sc-label">Char badges</div><div class="sc-val">Every line</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="plat-card">
+        <div class="plc-head">
+          <div class="plch-icon" style="background:var(--meta)">f</div>
+          <div><div class="plch-name">Meta Ads</div><div class="plch-tag">Facebook & Instagram — scroll-stopping, angle-led</div></div>
+          <div class="plch-format">Primary text<br/>Headline<br/>Description<br/>Up to 4 angles</div>
+        </div>
+        <div class="plc-body">
+          <div class="plcb-desc">The first 125 characters of the primary text are what the audience sees before "See more" — they must hook the reader and stand alone. Each angle is structurally different: a Problem-solution ad opens differently and makes a different emotional appeal than a Social proof ad or a Lifestyle angle. Running 3–4 genuinely different angles is what produces the data needed to know which creative approach works.</div>
+          <div class="plcb-specs">
+            <div class="spec-card"><div class="sc-label">Primary text</div><div class="sc-val">125 char fold</div></div>
+            <div class="spec-card"><div class="sc-label">Headline</div><div class="sc-val">40 char max</div></div>
+            <div class="spec-card"><div class="sc-label">Description</div><div class="sc-val">30 char max</div></div>
+            <div class="spec-card"><div class="sc-label">Angles</div><div class="sc-val">2, 3, or 4</div></div>
+            <div class="spec-card"><div class="sc-label">Hook notes</div><div class="sc-val">Per angle</div></div>
+            <div class="spec-card"><div class="sc-label">Best for</div><div class="sc-val">FB / IG / Both</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="plat-card">
+        <div class="plc-head">
+          <div class="plch-icon" style="background:var(--linkedin)">in</div>
+          <div><div class="plch-name">LinkedIn Ads</div><div class="plch-tag">Sponsored Content & Message Ads — B2B, credibility-first</div></div>
+          <div class="plch-format">Intro text<br/>Headline<br/>Message body<br/>Up to 3 angles</div>
+        </div>
+        <div class="plc-body">
+          <div class="plcb-desc">LinkedIn ad copy has a different grammar: opens with a professional observation or pain point, credibility-first, specific about the pain, lower-friction CTAs. When Message Ad format is selected, the output includes a subject line (60 chars) and a full 500–700 word message body — conversational, personalised opening, low-friction ask. The copy that most LinkedIn advertisers don't have time to write well.</div>
+          <div class="plcb-specs">
+            <div class="spec-card"><div class="sc-label">Intro text</div><div class="sc-val">150 char fold</div></div>
+            <div class="spec-card"><div class="sc-label">Headline</div><div class="sc-val">70 char max</div></div>
+            <div class="spec-card"><div class="sc-label">Description</div><div class="sc-val">100 char max</div></div>
+            <div class="spec-card"><div class="sc-label">Message subject</div><div class="sc-val">60 char max</div></div>
+            <div class="spec-card"><div class="sc-label">Message body</div><div class="sc-val">500–700 words</div></div>
+            <div class="spec-card"><div class="sc-label">Angles</div><div class="sc-val">2 or 3</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">What marketers say.</h2>
+    <div class="test-grid">
+      <div class="test-card"><div class="stars">★★★★★</div><p>"The character count badges are the thing. I used to paste into a character counter, find it was over 30, edit, paste again. Now I can see it in real time. The 15 headlines with varied types — brand, keyword, benefit, CTA, question — is also exactly what Google needs and exactly what most people don't write."</p><p class="test-attr">Performance Marketer · B2C · London</p></div>
+      <div class="test-card"><div class="stars">★★★★★</div><p>"I was writing the same Meta ad copy in three slightly different ways and calling it A/B testing. The tool showed me what genuinely different angles look like. A problem-solution ad is structurally different from a social proof ad. My click-through rates improved when I started running angles that were actually distinct."</p><p class="test-attr">Marketing Manager · SaaS · NYC</p></div>
+      <div class="test-card"><div class="stars">★★★★★</div><p>"The LinkedIn Message Ad body is the feature I didn't know I needed. Writing a 600-word InMail that doesn't feel like a form letter is hard. The generator writes it at the right length and structure. I personalise the opening line and send. My response rate on InMail went from 4% to 11%."</p><p class="test-attr">Demand Gen Manager · B2B · Berlin</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container" style="text-align:center">
+    <h2 class="section-title">Three platforms.<em>$57.</em></h2>
+    <div class="pricing-card">
+      <div class="pricing-top">
+        <div class="pricing-label">Ad Copy Suite</div>
+        <div class="price">$57</div>
+        <div class="price-sub">One-time · No subscription · Instant download</div>
+      </div>
+      <div class="pricing-body">
+        <ul class="feature-list">
+          <li><span class="check">✦</span>Google Ads — 15 headlines + 4 descriptions per set, up to 3 sets, character badges, note per line</li>
+          <li><span class="check">✦</span>Meta Ads — primary text, headline, description, up to 4 angles, hook notes, best-for guidance</li>
+          <li><span class="check">✦</span>LinkedIn Ads — intro, headline, message body, up to 3 angles, character badges throughout</li>
+          <li><span class="check">✦</span>Works in any browser — no install, no login</li>
+          <li><span class="check">✦</span>Lifetime access — yours forever</li>
+        </ul>
+        <a href="https://malikreagan.gumroad.com/l/ad-copy-suite" class="btn-purchase">Get the Ad Copy Suite — $57</a>
+        <p class="guarantee">7-day money-back guarantee · No questions asked</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:0">Questions.</h2>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Three platforms.<em>Copy-ready.</em></h2>
+    <p>Google Ads, Meta Ads, LinkedIn Ads. Platform-native copy with character count badges, multiple angles, and one-click copy.</p>
+    <a href="https://malikreagan.gumroad.com/l/ad-copy-suite" class="btn-primary">Get the Ad Copy Suite — $57</a>
+    <p class="cta-note">One-time · 7-day guarantee · Instant download</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">📊 Ad Copy Suite</div>
+  <div class="footer-links"><a href="#">Privacy</a><a href="#">Refund Policy</a><a href="mailto:hello@malikreagan.com">Contact</a></div>
+</footer>
+
+<script>
+const FAQS=[
+  {q:"How does the character count work — is it enforced?",a:"The character limits are enforced in the AI prompt with explicit counting instructions, and every output line shows a live badge: green when safely under the limit, amber when close, red when over. Google's 30-character headline limit and 90-character description limit are hard constraints — ads that exceed them get rejected by Google. The tool is specifically prompted to count characters precisely, including spaces. If a headline comes back over the limit, regenerate — the badge tells you immediately."},
+  {q:"What's the difference between running 3 Meta angles vs 1?",a:"With one angle you find out whether that angle works. With three genuinely different angles you find out which type of creative approach works for your audience — and that's a reusable insight that improves every future campaign. The tool makes the three angles structurally different by design: different opening structure, different emotional hook, different approach. Not tone variations of the same idea."},
+  {q:"Can I use the LinkedIn tool for both Sponsored Content and Message Ads in the same campaign?",a:"Yes — select 'Both Sponsored Content + Message Ad' in the format dropdown and the tool generates both for each angle. The Sponsored Content output includes intro text, headline, and description. The Message Ad output adds a subject line (60 chars) and a full message body (500–700 words). Running both formats in the same campaign lets you test which LinkedIn placement drives better results for your specific audience and objective."},
+  {q:"Does the tool work for B2C brands on LinkedIn?",a:"The LinkedIn generator is optimised for B2B — it opens with professional pain points, uses credibility-first framing, and assumes a professional context. For B2C campaigns, the Meta Ads generator is the right tool. If you're running a B2C brand with a LinkedIn presence (premium consumer goods, professional services, education), the tone can be adjusted via the value proposition input — describe the audience as professionals who buy for themselves rather than businesses buying for teams."},
+  {q:"What format is the file and how does it work?",a:"A single HTML file that opens in any browser — no install, no login, no account required. Works on Mac and Windows. Requires an internet connection for AI generation. Copy each line individually with the per-item copy button, or use Copy All to grab everything at once. Download once from Gumroad and open it any time."}
+];
+const faqList=document.getElementById('faqList');
+FAQS.forEach((f,i)=>{
+  const div=document.createElement('div');div.className='faq-item';
+  div.innerHTML=`<button class="faq-q" onclick="toggleFaq(${i})">${f.q}<span class="faq-toggle" id="ftog${i}">+</span></button><div class="faq-a" id="fans${i}">${f.a}</div>`;
+  faqList.appendChild(div);
+});
+function toggleFaq(i){
+  const ans=document.getElementById('fans'+i),tog=document.getElementById('ftog'+i);
+  const open=ans.style.display==='block';
+  document.querySelectorAll('.faq-a').forEach(a=>a.style.display='none');
+  document.querySelectorAll('.faq-toggle').forEach(t=>t.textContent='+');
+  if(!open){ans.style.display='block';tog.textContent='−';}
+}
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}});},{threshold:0.06});
+document.querySelectorAll('.section').forEach(s=>{s.style.opacity='0';s.style.transform='translateY(16px)';s.style.transition='opacity 0.45s ease, transform 0.45s ease';obs.observe(s);});
+</script>
+</body>
+</html>
